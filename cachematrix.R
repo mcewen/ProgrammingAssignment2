@@ -1,3 +1,4 @@
+#
 # makeCacheMatrix() is a function that generates a list of four
 # funcitons:
 # (1) set = set, used by "x$set()" sets the content of the matrix.
@@ -25,6 +26,7 @@ makeCacheMatrix <- function(x = numeric(matrix())) {
              getinverse = getinverse)
 }
 
+#
 # cacheSolve() is another function that looks in the element, 
 # passed in as an argument, and will return a matrix that
 # is the inverse of 'x', or it will calculate it and store it via
